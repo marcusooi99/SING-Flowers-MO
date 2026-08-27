@@ -1,0 +1,16 @@
+# Weights are large binaries - fetched via scripts/fetch_weights.py, not committed
+weights/*.pt
+
+# Generated outputs
+sample_outputs/annotated/
+sample_outputs/results.csv
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS
+.DS_Store
+.Rproj.user
