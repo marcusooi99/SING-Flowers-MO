@@ -15,17 +15,26 @@ pycocotools).
 Requires **Python 3.10** (3.9–3.11 also work). Use either venv or conda.
 
 ```bash
+cd <your-working-directory>
+git clone <repo-url>
+cd SING-Flowers-MO
+```
+
+Run every command below — `pip install`, `fetch_weights.py`, `detect_flowers.py` —
+from this repo root.
+
+```bash
 # Option A — venv
-python3.10 -m venv .venv
-source .venv/bin/activate          # Windows: .venv\Scripts\activate
+python3.10 -m venv SING-Flowers-MO
+source SING-Flowers-MO/bin/activate      # Windows: SING-Flowers-MO\Scripts\activate
 pip install --upgrade pip
 pip install -r requirements.txt
 ```
 
 ```bash
 # Option B — conda
-conda create -n flower-detector python=3.10 -y
-conda activate flower-detector
+conda create -n SING-Flowers-MO python=3.10 -y
+conda activate SING-Flowers-MO
 pip install -r requirements.txt
 ```
 
@@ -38,24 +47,22 @@ python scripts/fetch_weights.py
 
 ## Usage
 
+From the repo root. `--input` and `--output` are the only required arguments:
+
 ```bash
-python src/detect_flowers.py \
-    --input sample_images \
-    --output sample_outputs \
-    --weights weights/LeafPriority.pt \
-    --conf 0.1 \
-    --imgsz 1280 \
-    --device cpu          # cuda:0 for an NVIDIA GPU, mps for Apple Silicon
+python src/detect_flowers.py --input sample_images --output sample_outputs
 ```
 
-Flags:
+Optional flags:
 
 | Flag | Default | Purpose |
 |------|---------|---------|
+| `--weights` | `weights/LeafPriority.pt` | Path to the PCD checkpoint. |
 | `--conf` | `0.1` | Detection confidence threshold. |
+| `--imgsz` | `1280` | Inference resolution (the PCD was trained at 1280). |
 | `--no-bud` | off | Exclude `bud` detections from the flowering decision and the annotated images (by default buds count as flowering structures). `n_bud` and `all_flower_boxes` in the CSV still record buds regardless. |
 | `--no-annotate` | off | Skip writing annotated images (CSV only, faster). |
-| `--device` | auto | `cpu`, `cuda:0`, or `mps`. |
+| `--device` | auto | `cpu`, `cuda:0` (NVIDIA GPU), or `mps` (Apple Silicon). |
 
 Output:
 

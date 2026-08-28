@@ -51,7 +51,7 @@ def parse_args():
     p = argparse.ArgumentParser(description="Detect flower presence on herbarium sheets")
     p.add_argument("--input", required=True, help="Folder of herbarium sheet images")
     p.add_argument("--output", required=True, help="Folder to write annotated images + results.csv")
-    p.add_argument("--weights", required=True, help="Path to LeafPriority.pt (or other PCD weights)")
+    p.add_argument("--weights", default="weights/LeafPriority.pt", help="Path to LeafPriority.pt (or other PCD weights)")
     p.add_argument("--conf", type=float, default=0.1, help="Detection confidence threshold (default 0.1)")
     p.add_argument("--imgsz", type=int, default=1280, help="Inference resolution (match training: 1280)")
     p.add_argument("--device", default="", help="'cpu', 'cuda:0', 'mps', or '' to auto-select")

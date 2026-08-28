@@ -16,6 +16,8 @@ __pycache__/
 *.pyc
 .venv/
 venv/
+# local venv — README names it after the repo
+/SING-Flowers-MO/
 
 # R
 .Rhistory
