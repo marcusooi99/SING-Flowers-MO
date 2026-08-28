@@ -1,9 +1,15 @@
 # Weights are large binaries - fetched via scripts/fetch_weights.py, not committed
 weights/*.pt
 
+# Input images
+sample_images/*.jpg
+
 # Generated outputs
 sample_outputs/annotated/
-sample_outputs/results.csv
+# sample_outputs/results.csv
+
+# Local-only working notes / derived context, not for the public repo
+CLAUDE.md
 
 # Python
 __pycache__/
@@ -11,6 +17,10 @@ __pycache__/
 .venv/
 venv/
 
+# R
+.Rhistory
+.Rproj.user
+.RData
+
 # OS
 .DS_Store
-.Rproj.user

@@ -1,0 +1,5 @@
+GBIF occ_search, accessed 2026-08-27
+taxonKey = 220 (Magnoliopsida)
+country in {BN, KH, ID, LA, MY, MM, PH, SG, TH, TL, VN}
+basisOfRecord = PRESERVED_SPECIMEN, mediaType = StillImage, occurrenceStatus = PRESENT
+seed = 123 | candidates = 645 | sampled = 499 | downloaded = 271

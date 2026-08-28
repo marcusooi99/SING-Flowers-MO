@@ -1,36 +1,31 @@
 """
-detect_flowers.py
+detect_flowers.py — minimal flower-presence detector for herbarium sheets.
 
-Minimal flower-presence detector for herbarium specimen sheets.
+Runs LeafMachine2's Plant Component Detector (PCD), a YOLOv5x6 model, via
+torch.hub. Of its 11 classes this tool uses flower_one (5), flower_many (6),
+and bud (7): a sheet is "flowering" if any active flower class clears --conf.
+Pass --no-bud to drop buds and count open flowers only.
 
-Uses the Plant Component Detector (PCD) weights from LeafMachine2
-(Weaver & Smith, 2023, Applications in Plant Sciences), which is a
-YOLOv5x6 object detector trained on 494,766+ annotations across 288
-herbaria to locate leaves, flowers, fruit, buds, roots, and wood on
-herbarium sheets.
-
-We only care about two of its eleven classes:
-    5: flower_one    (a single, isolated flower)
-    6: flower_many    (a cluster/inflorescence of flowers)
-
-A specimen is labeled "flowering" if at least one detection of either
-class clears the confidence threshold.
+Writes sample_outputs/results.csv (one row per image) and annotated JPEGs.
+See README.md for setup, CLAUDE.md for methodology and constraints.
 
 Usage:
-    python src/detect_flowers.py \
-        --input sample_images \
-        --output sample_outputs \
-        --weights weights/LeafPriority.pt \
-        --conf 0.2 \
-        --imgsz 1280 \
-        --device cpu
+    python src/detect_flowers.py --input sample_images --output sample_outputs \
+        --weights weights/LeafPriority.pt --conf 0.1 --imgsz 1280 --device cpu
 """
 
 import argparse
 import csv
 import json
+import os
 import warnings
 from pathlib import Path
+
+# A few ops in the YOLOv5x6 / NMS path have no MPS (Apple Silicon GPU)
+# implementation. Without this, `--device mps` crashes instead of falling back
+# to CPU for those ops. Must be set before torch is imported. Inert no-op on
+# Windows/Linux and on cpu/cuda runs (PyTorch only reads it when MPS is active).
+os.environ.setdefault("PYTORCH_ENABLE_MPS_FALLBACK", "1")
 
 import cv2
 import torch
@@ -43,13 +38,12 @@ import torch
 warnings.filterwarnings("ignore", category=FutureWarning)
 warnings.filterwarnings("ignore", category=UserWarning)
 
-# Classes that count toward "has flower". Including `bud` is a methodology
-# choice: a bud is an unopened flower, not a flower in bloom. Counting it
-# here answers "does this specimen show reproductive/flowering structures",
-# a slightly broader question than "is there an open flower visible". Worth
-# stating explicitly in your writeup, since it changes what "flowering"
-# means. Drop `7: "bud"` below to go back to open-flowers-only.
-FLOWER_CLASS_IDS = {5: "flower_one", 6: "flower_many", 7: "bud"}
+# PCD classes treated as "flowering structures". `bud` (7) counts by default —
+# a deliberate choice that makes "flowering" mean "reproductive structures
+# present" rather than "open flower visible". Pass --no-bud for classes 5 and 6
+# only. Per-class counts are always written to the CSV, so results can be
+# re-scored either way after the fact.
+FLOWER_CLASS_NAMES = {5: "flower_one", 6: "flower_many", 7: "bud"}
 IMG_EXTENSIONS = {".jpg", ".jpeg", ".png", ".tif", ".tiff", ".bmp"}
 
 
@@ -58,9 +52,11 @@ def parse_args():
     p.add_argument("--input", required=True, help="Folder of herbarium sheet images")
     p.add_argument("--output", required=True, help="Folder to write annotated images + results.csv")
     p.add_argument("--weights", required=True, help="Path to LeafPriority.pt (or other PCD weights)")
-    p.add_argument("--conf", type=float, default=0.2, help="Confidence threshold (LM2 default for phenology use)")
+    p.add_argument("--conf", type=float, default=0.1, help="Detection confidence threshold (default 0.1)")
     p.add_argument("--imgsz", type=int, default=1280, help="Inference resolution (match training: 1280)")
-    p.add_argument("--device", default="", help="'cpu', 'cuda:0', or '' to auto-select")
+    p.add_argument("--device", default="", help="'cpu', 'cuda:0', 'mps', or '' to auto-select")
+    p.add_argument("--no-bud", action="store_true",
+                   help="Exclude 'bud' detections from the flowering decision (default: buds count)")
     p.add_argument("--no-annotate", action="store_true", help="Skip saving annotated images (faster, CSV only)")
     return p.parse_args()
 
@@ -120,6 +116,10 @@ def main():
           f"torch.hub on first run, which needs internet access once)...")
     model = load_model(args.weights, args.conf, args.device)
 
+    active_ids = [5, 6] if args.no_bud else [5, 6, 7]
+    print(f"Flowering classes: {[FLOWER_CLASS_NAMES[i] for i in active_ids]} "
+          f"(conf >= {args.conf})")
+
     results_rows = []
     for img_path in image_paths:
         print(f"Processing {img_path.name}...")
@@ -130,12 +130,17 @@ def main():
 
         results = model(img, size=args.imgsz)
         dets = results.pandas().xyxy[0]
-        flower_dets = dets[dets["class"].isin(FLOWER_CLASS_IDS)]
+
+        # `flower_dets` drives the decision and the annotations — it honours
+        # --no-bud. `all_flower_dets` (always 5/6/7) is only for CSV reporting,
+        # so n_bud and all_flower_boxes record buds even when --no-bud is set.
+        flower_dets = dets[dets["class"].isin(active_ids)]
+        all_flower_dets = dets[dets["class"].isin(FLOWER_CLASS_NAMES)]
 
         has_flower = len(flower_dets) > 0
-        n_flower_one = len(flower_dets[flower_dets["class"] == 5])
-        n_flower_many = len(flower_dets[flower_dets["class"] == 6])
-        n_bud = len(flower_dets[flower_dets["class"] == 7])
+        n_flower_one = int((all_flower_dets["class"] == 5).sum())
+        n_flower_many = int((all_flower_dets["class"] == 6).sum())
+        n_bud = int((all_flower_dets["class"] == 7).sum())
         max_conf = float(flower_dets["confidence"].max()) if has_flower else 0.0
 
         out_img_path = annotated_dir / f"{img_path.stem}_annotated.jpg"
@@ -150,7 +155,7 @@ def main():
             "n_bud": n_bud,
             "max_flower_confidence": round(max_conf, 4),
             "all_flower_boxes": json.dumps(
-                flower_dets[["xmin", "ymin", "xmax", "ymax", "confidence", "name"]]
+                all_flower_dets[["xmin", "ymin", "xmax", "ymax", "confidence", "name"]]
                 .round(2).to_dict(orient="records")
             ),
             "annotated_image": str(out_img_path) if not args.no_annotate else "",

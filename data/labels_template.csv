@@ -1,0 +1,272 @@
+image_id,image_path,scientificName,family,countryCode,year,gbif_key,image_url,weak_flowering,flowering,has_bud,has_fruit,usable,notes
+HERB_0002,sample_images/HERB_0002.jpg,Phaseolus lathyroides L.,Fabaceae,ID,2021,3969584725,https://web.corral.tacc.utexas.edu/brit/BRIT/BRIT0620000/BRIT620768.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0003,sample_images/HERB_0003.jpg,Elatostema platyphyllum Wedd.,Urticaceae,VN,2024,5895915527,https://plant.depo.msu.ru/open/public/item/MW1048455/img/0.jpg?gbif,FALSE,NA,NA,NA,NA,NA
+HERB_0004,sample_images/HERB_0004.jpg,Ixora javanica (Blume) DC.,Rubiaceae,VN,2024,6196924951,https://dbs.kaum.kagoshima-u.ac.jp/musedb/s_plant/picture/KAG188596/KAG188596.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0005,sample_images/HERB_0005.jpg,Litsea lancifolia (Roxb. ex Nees),Lauraceae,LA,2024,6196924843,https://dbs.kaum.kagoshima-u.ac.jp/musedb/s_plant/picture/KAG187448/KAG187448.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0007,sample_images/HERB_0007.jpg,Macroptilium lathyroides (L.) Urb.,Fabaceae,SG,2020,5058347825,https://d2jcv3kl45hlgi.cloudfront.net/0dd2acf53e3c9153c518226616509af1.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0009,sample_images/HERB_0009.jpg,Heptapleurum simplicifolium (Merr.) G.M.Plunkett & Lowry,Araliaceae,PH,2024,5833058934,https://web.corral.tacc.utexas.edu/brit/BRIT/BRIT1149000/BRIT1149189.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0011,sample_images/HERB_0011.jpg,Monoon simiarum (Buch.-Ham. ex Hook.f. & Thomson) B.Xue & R.M.K.Saunders,Annonaceae,VN,2024,6196929201,https://dbs.kaum.kagoshima-u.ac.jp/musedb/s_plant/picture/KAG188590/KAG188590.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0012,sample_images/HERB_0012.jpg,Byttneria angulata Hassk.,Malvaceae,TL,2015,2515140828,https://medialib.naturalis.nl/file/id/L.3978120/format/large,FALSE,NA,NA,NA,NA,NA
+HERB_0016,sample_images/HERB_0016.jpg,Broussonetia papyrifera (L.) L'Hér. ex Vent.,Moraceae,ID,2019,5841176154,https://brmas-media.s3-ap-northeast-1.amazonaws.com/hast/specimen/S_145383-m.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0017,sample_images/HERB_0017.jpg,Indigofera spicata Forssk.,Fabaceae,SG,2020,5276398444,https://d2jcv3kl45hlgi.cloudfront.net/8299c29566a952e86ef40ae2b978ae7a.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0020,sample_images/HERB_0020.jpg,Teijsmanniodendron unifoliolatum (Merr.) Moldenke,Lamiaceae,BN,2019,4608025528,https://d2jcv3kl45hlgi.cloudfront.net/44db1ce906575679521fbd1b009f03b8.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0024,sample_images/HERB_0024.jpg,Neptunia plena (L.) Benth.,Fabaceae,BN,2019,4938750003,https://d2jcv3kl45hlgi.cloudfront.net/2dfa054c5cbc50c23a1f3915312929c6.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0026,sample_images/HERB_0026.jpg,Mallotus decipiens Müll.Arg.,Euphorbiaceae,LA,2024,6196923915,https://dbs.kaum.kagoshima-u.ac.jp/musedb/s_plant/picture/KAG187521/KAG187521.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0028,sample_images/HERB_0028.jpg,Morus alba L.,Moraceae,TL,2017,5207103331,https://medialib.naturalis.nl/file/id/L.4578455/format/large,FALSE,NA,NA,NA,NA,NA
+HERB_0031,sample_images/HERB_0031.jpg,Codiaeum variegatum var. moluccanum (Decne.) Müll.Arg.,Euphorbiaceae,TL,2015,2515139402,https://medialib.naturalis.nl/file/id/L.3978102/format/large,FALSE,NA,NA,NA,NA,NA
+HERB_0035,sample_images/HERB_0035.jpg,Morinda angustifolia Roxb.,Rubiaceae,LA,2024,6196923447,https://dbs.kaum.kagoshima-u.ac.jp/musedb/s_plant/picture/KAG187236/KAG187236.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0036,sample_images/HERB_0036.jpg,Volkameria inermis L.,Lamiaceae,VN,2024,6196929358,https://dbs.kaum.kagoshima-u.ac.jp/musedb/s_plant/picture/KAG188628/KAG188628.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0037,sample_images/HERB_0037.jpg,Embelia nutans Wall.,Primulaceae,MM,2019,4519467661,https://d2jcv3kl45hlgi.cloudfront.net/d36fdfe693cc3d6b06292f56969c0931.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0041,sample_images/HERB_0041.jpg,Myristica borneensis Warb.,Myristicaceae,BN,2019,5895916388,https://plant.depo.msu.ru/open/public/item/MW1048524/img/0.jpg?gbif,FALSE,NA,NA,NA,NA,NA
+HERB_0042,sample_images/HERB_0042.jpg,Memecylon edule Roxb.,Melastomataceae,TH,2023,6450205307,https://d2jcv3kl45hlgi.cloudfront.net/f2ee2b2c0c6760dca91da4efaf2f557b.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0045,sample_images/HERB_0045.jpg,Diospyros pilosiuscula G.Don,Ebenaceae,TH,2022,4858955209,https://d2jcv3kl45hlgi.cloudfront.net/a73e3fa960bb7e5e0f80aae448823f27.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0048,sample_images/HERB_0048.jpg,Callerya cinerea (Benth.) Schot,Fabaceae,TH,2023,6367088301,https://d2jcv3kl45hlgi.cloudfront.net/3284cb620d5bafabecc2561fc01b4e60.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0049,sample_images/HERB_0049.jpg,Phyllanthus microcarpus (Benth.) Müll.Arg.,Phyllanthaceae,LA,2024,6196923456,https://dbs.kaum.kagoshima-u.ac.jp/musedb/s_plant/picture/KAG187283/KAG187283.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0050,sample_images/HERB_0050.jpg,Alangium kayuniga K.M.Wong,Cornaceae,BN,2019,4928996801,https://d2jcv3kl45hlgi.cloudfront.net/3e1b22f6b1ba25d94050d1794c0df0da.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0052,sample_images/HERB_0052.jpg,Grewia retusifolia Kurz,Malvaceae,TL,2019,5207099334,https://medialib.naturalis.nl/file/id/L.4578456/format/large,FALSE,NA,NA,NA,NA,NA
+HERB_0053,sample_images/HERB_0053.jpg,"Syzygium coarctatum (Blume) Byng, N.Snow & Peter G.Wilson",Myrtaceae,LA,2024,6196923636,https://dbs.kaum.kagoshima-u.ac.jp/musedb/s_plant/picture/KAG187176/KAG187176.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0054,sample_images/HERB_0054.jpg,"Haplanthus laxiflorus (Blume) Gnanasek., G.V.S.Murthy & Y.F.Deng",Acanthaceae,TH,2023,6450154308,https://d2jcv3kl45hlgi.cloudfront.net/1f081c2a0621453a007a8ba551b4e234.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0056,sample_images/HERB_0056.jpg,Combretum pilosum Roxb. ex G.Don,Combretaceae,LA,2024,6196925434,https://dbs.kaum.kagoshima-u.ac.jp/musedb/s_plant/picture/KAG187628/KAG187628.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0059,sample_images/HERB_0059.jpg,Combretum indicum (L.) DeFilipps,Combretaceae,VN,2024,6196927995,https://dbs.kaum.kagoshima-u.ac.jp/musedb/s_plant/picture/KAG188670/KAG188670.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0060,sample_images/HERB_0060.jpg,Xylacanthus laoticus Aver. & K.S.Nguyen,Acanthaceae,LA,2024,6196925179,https://dbs.kaum.kagoshima-u.ac.jp/musedb/s_plant/picture/KAG187616/KAG187616.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0064,sample_images/HERB_0064.jpg,Cnestis palala (Lour.) Merr.,Connaraceae,SG,2021,4459006791,https://medialib.naturalis.nl/file/id/L.4482923/format/large,FALSE,NA,NA,NA,NA,NA
+HERB_0066,sample_images/HERB_0066.jpg,Psychotria pachyphylla (King & Gamble) Ridl.,Rubiaceae,SG,2021,4958498459,https://d2jcv3kl45hlgi.cloudfront.net/f76357164dc08ddb516714db79c591cf.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0069,sample_images/HERB_0069.jpg,Canthium coffeoides Pierre ex Pit.,Rubiaceae,TH,2023,6367078378,https://d2jcv3kl45hlgi.cloudfront.net/aef676de030ec007a179e52fd83f9656.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0071,sample_images/HERB_0071.jpg,Memecylon scolopacinum Ridl.,Melastomataceae,BN,2019,4926503384,https://d2jcv3kl45hlgi.cloudfront.net/3cce4028198ab6a31db614e6ebbeec83.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0074,sample_images/HERB_0074.jpg,Chassalia curviflora (Wall.) Thwaites,Rubiaceae,VN,2024,6196929042,https://dbs.kaum.kagoshima-u.ac.jp/musedb/s_plant/picture/KAG188592/KAG188592.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0075,sample_images/HERB_0075.jpg,Hemigraphis ciliata S.Moore,Acanthaceae,TL,2015,2514988764,https://medialib.naturalis.nl/file/id/L.3978198/format/large,FALSE,NA,NA,NA,NA,NA
+HERB_0079,sample_images/HERB_0079.jpg,Huberantha jenkinsii (Hook.f. & Thomson) Chaowasku,Annonaceae,SG,2021,5058342828,https://d2jcv3kl45hlgi.cloudfront.net/a686137923e56c0b61b54c35895ec4d6.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0082,sample_images/HERB_0082.jpg,Euonymus laxiflorus Champ. ex Benth.,Celastraceae,VN,2024,5895917454,https://plant.depo.msu.ru/open/public/item/MW1048772/img/0.jpg?gbif,FALSE,NA,NA,NA,NA,NA
+HERB_0083,sample_images/HERB_0083.jpg,Trichosanthes philippinensis Rugayah,Cucurbitaceae,PH,2024,5833058507,https://web.corral.tacc.utexas.edu/brit/BRIT/BRIT1151000/BRIT1151409.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0084,sample_images/HERB_0084.jpg,Hedyotis rosmarinifolia (Pit.) Craib,Rubiaceae,TH,2023,6450150310,https://d2jcv3kl45hlgi.cloudfront.net/a189eca7b0b9e158cce6af5d2eadb17e.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0085,sample_images/HERB_0085.jpg,Antidesma pyrifolium Müll.Arg.,Phyllanthaceae,VN,2024,6196926592,https://dbs.kaum.kagoshima-u.ac.jp/musedb/s_plant/picture/KAG188593/KAG188593.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0088,sample_images/HERB_0088.jpg,Chassalia curviflora (Wall.) Thwaites,Rubiaceae,TH,2023,6450188301,https://d2jcv3kl45hlgi.cloudfront.net/2135ebda0ecde4d732e41590badf3eee.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0089,sample_images/HERB_0089.jpg,Broussonetia papyrifera (L.) L'Hér. ex Vent.,Moraceae,ID,2019,5841161857,https://brmas-media.s3-ap-northeast-1.amazonaws.com/hast/specimen/S_145386-m.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0090,sample_images/HERB_0090.jpg,Ridsdalea pseudoternifolia (Valeton) J.T.Pereira,Rubiaceae,BN,2019,4929018786,https://d2jcv3kl45hlgi.cloudfront.net/4a54a130b6889af0b7cc6eeac99dd194.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0092,sample_images/HERB_0092.jpg,Chromolaena odorata (L.) R.M.King & H.Rob.,Asteraceae,TL,2020,5207141325,https://medialib.naturalis.nl/file/id/L.4578462/format/large,FALSE,NA,NA,NA,NA,NA
+HERB_0094,sample_images/HERB_0094.jpg,Ixora spectabilis Wall. ex G.Don,Rubiaceae,TH,2025,5004529249,https://images.mobot.org/tropicosimages5/detailimages/TropicosImagesVol5/102124000/34F02BA1-D337-47F7-81F9-5C40E56B08BA.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0095,sample_images/HERB_0095.jpg,Ardisia elliptica Thunb.,Primulaceae,BN,2019,3004109374,https://plant.depo.msu.ru/open/public/item/MW0757546/img/0.jpg?gbif,FALSE,NA,NA,NA,NA,NA
+HERB_0096,sample_images/HERB_0096.jpg,Huchimingia podocarpa (Dunn) Z.Q.Song,Fabaceae,LA,2024,6196924559,https://dbs.kaum.kagoshima-u.ac.jp/musedb/s_plant/picture/KAG187581/KAG187581.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0099,sample_images/HERB_0099.jpg,Santiria griffithii (Hook.fil.) Engl.,Burseraceae,SG,2023,4607888550,https://d2jcv3kl45hlgi.cloudfront.net/d93c5e7fc9c34795fdc1e3bc5a81f158.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0100,sample_images/HERB_0100.jpg,Vaccinium cumingianum S.Vidal,Ericaceae,PH,2024,5833060651,https://web.corral.tacc.utexas.edu/brit/BRIT/BRIT1149000/BRIT1149102.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0101,sample_images/HERB_0101.jpg,Ficus lepicarpa Blume,Moraceae,BN,2018,4459006792,https://medialib.naturalis.nl/file/id/L.4482925/format/large,FALSE,NA,NA,NA,NA,NA
+HERB_0102,sample_images/HERB_0102.jpg,Drosera peltata Sm.,Droseraceae,ID,2023,4974429608,https://plant.depo.msu.ru/open/public/item/MW1046911/img/0.jpg?gbif,FALSE,NA,NA,NA,NA,NA
+HERB_0103,sample_images/HERB_0103.jpg,Broussonetia papyrifera (L.) L'Hér. ex Vent.,Moraceae,ID,2019,5841202753,https://brmas-media.s3-ap-northeast-1.amazonaws.com/hast/specimen/S_145389-m.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0106,sample_images/HERB_0106.jpg,Melicope glabra (Blume) T.G.Hartley,Rutaceae,SG,2020,4873818200,https://d2jcv3kl45hlgi.cloudfront.net/7ea613c447ae71c607e94f659a63ed21.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0111,sample_images/HERB_0111.jpg,Adinobotrys atropurpureus (Wall.) Dunn,Fabaceae,LA,2024,6196925178,https://dbs.kaum.kagoshima-u.ac.jp/musedb/s_plant/picture/KAG187313/KAG187313.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0112,sample_images/HERB_0112.jpg,Praravinia parviflora Bremek.,Rubiaceae,BN,2019,4938763753,https://d2jcv3kl45hlgi.cloudfront.net/1476521dfc576566836ce305a8abb95f.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0114,sample_images/HERB_0114.jpg,Passiflora foetida L.,Passifloraceae,VN,2024,6196928744,https://dbs.kaum.kagoshima-u.ac.jp/musedb/s_plant/picture/KAG188672/KAG188672.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0115,sample_images/HERB_0115.jpg,Pseuderanthemum graciliflorum (Nees) Ridl.,Acanthaceae,ID,2023,4974433771,https://plant.depo.msu.ru/open/public/item/MW1047888/img/0.jpg?gbif,FALSE,NA,NA,NA,NA,NA
+HERB_0119,sample_images/HERB_0119.jpg,Ficus virens Aiton,Moraceae,SG,2021,4519431616,https://d2jcv3kl45hlgi.cloudfront.net/e66829ef75d8d2807e5987dcc84def6c.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0120,sample_images/HERB_0120.jpg,Bouea oppositifolia (Roxb.) Meisn.,Anacardiaceae,SG,2021,4607891516,https://d2jcv3kl45hlgi.cloudfront.net/a6157de2cac72b22b96c0d105d92b7ca.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0124,sample_images/HERB_0124.jpg,Polyalthia corticosa (Pierre) Finet & Gagnep.,Annonaceae,LA,2024,6196923363,https://dbs.kaum.kagoshima-u.ac.jp/musedb/s_plant/picture/KAG187210/KAG187210.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0125,sample_images/HERB_0125.jpg,"Leptomischus multiflorus Nuraliev, K.S.Nguyen & L.Wu",Rubiaceae,VN,2024,5895916948,https://plant.depo.msu.ru/open/public/item/MW1038074/img/0.jpg?gbif,FALSE,NA,NA,NA,NA,NA
+HERB_0128,sample_images/HERB_0128.jpg,Phyllocyclus parishii (Hook.fil.) Kurz,Gentianaceae,TH,2023,6450119309,https://d2jcv3kl45hlgi.cloudfront.net/10dfcd138c92bf50284647ed8ec7a94b.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0129,sample_images/HERB_0129.jpg,Ardisia villosa Roxb.,Primulaceae,ID,2019,2640604340,https://live.staticflickr.com/65535/48652372637_18b5f94e9f_o_d.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0130,sample_images/HERB_0130.jpg,Adenia poilanei C.Cusset,Passifloraceae,VN,2024,5895917676,https://plant.depo.msu.ru/open/public/item/MW1048827/img/0.jpg?gbif,FALSE,NA,NA,NA,NA,NA
+HERB_0132,sample_images/HERB_0132.jpg,Cinnamomum loureiroi Nees,Lauraceae,VN,2024,4907059344,https://images.mobot.org/tropicosimages6/detailimages/TropicosImagesVol6/102539000/F3BCB5A8-55D6-4463-9881-B339B3D72A41.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0134,sample_images/HERB_0134.jpg,Dolichandrone spathacea (L.f.) Seem.,Bignoniaceae,TL,2017,5207134335,https://medialib.naturalis.nl/file/id/L.4578457/format/large,FALSE,NA,NA,NA,NA,NA
+HERB_0135,sample_images/HERB_0135.jpg,Gomphostemma javanicum (Blume) Benth.,Lamiaceae,LA,2024,6196923527,https://dbs.kaum.kagoshima-u.ac.jp/musedb/s_plant/picture/KAG187325/KAG187325.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0136,sample_images/HERB_0136.jpg,Sonneratia griffithii Kurz,Lythraceae,VN,2024,6196928059,https://dbs.kaum.kagoshima-u.ac.jp/musedb/s_plant/picture/KAG188613/KAG188613.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0138,sample_images/HERB_0138.jpg,Dodonaea viscosa (L.) Jacq.,Sapindaceae,SG,2020,4459006790,https://medialib.naturalis.nl/file/id/L.4482921/format/large,FALSE,NA,NA,NA,NA,NA
+HERB_0141,sample_images/HERB_0141.jpg,Fissistigma manubriatum (Hook.f. & Thomson) Merr.,Annonaceae,SG,2022,4608025494,https://d2jcv3kl45hlgi.cloudfront.net/7933eff38e3eeb59dbaa45f2a3c5b004.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0144,sample_images/HERB_0144.jpg,Sterculia lanceolata Cav.,Malvaceae,LA,2024,6196923582,https://dbs.kaum.kagoshima-u.ac.jp/musedb/s_plant/picture/KAG187483/KAG187483.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0146,sample_images/HERB_0146.jpg,Diospyros brandisiana Kurz,Ebenaceae,LA,2024,6196924232,https://dbs.kaum.kagoshima-u.ac.jp/musedb/s_plant/picture/KAG187396/KAG187396.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0148,sample_images/HERB_0148.jpg,Clausena indica (Dalzell) Oliv.,Rutaceae,VN,2024,5895917056,https://plant.depo.msu.ru/open/public/item/MW1048704/img/0.jpg?gbif,FALSE,NA,NA,NA,NA,NA
+HERB_0154,sample_images/HERB_0154.jpg,Combretum quadrangulare Kurz,Combretaceae,VN,2024,6196927803,https://dbs.kaum.kagoshima-u.ac.jp/musedb/s_plant/picture/KAG188635/KAG188635.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0155,sample_images/HERB_0155.jpg,Maesa ramentacea (Roxb.) A.DC.,Primulaceae,MM,2019,4538698772,https://d2jcv3kl45hlgi.cloudfront.net/fe42ab3da30abd575ceb25517013ba3d.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0161,sample_images/HERB_0161.jpg,Byttneria maingayi Mast.,Malvaceae,SG,2021,6163695930,https://d2jcv3kl45hlgi.cloudfront.net/7bef85ba19b66c4a58f91cb9b845baf9.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0163,sample_images/HERB_0163.jpg,Neo-uvaria laosensis Tagane & Soulad.,Annonaceae,LA,2024,6196923706,https://dbs.kaum.kagoshima-u.ac.jp/musedb/s_plant/picture/KAG187400/KAG187400.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0164,sample_images/HERB_0164.jpg,Sindora siamensis Teijsm. ex Miq.,Fabaceae,SG,2022,4607895524,https://d2jcv3kl45hlgi.cloudfront.net/e6436e628c2a467322a14282e14abcd7.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0165,sample_images/HERB_0165.jpg,Blumea lacera (Burm.fil.) DC.,Asteraceae,SG,2020,5058339835,https://d2jcv3kl45hlgi.cloudfront.net/d18eec34dcd8e986804f753e5db8b2ab.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0166,sample_images/HERB_0166.jpg,Timonius wallichianus Valeton,Rubiaceae,SG,2021,4926522137,https://d2jcv3kl45hlgi.cloudfront.net/2ffd07da3e51f9e751a61e95a56fcba6.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0168,sample_images/HERB_0168.jpg,Breynia vitis-idaea (Burm.f.) C.E.C.Fisch.,Phyllanthaceae,VN,2024,6196929472,https://dbs.kaum.kagoshima-u.ac.jp/musedb/s_plant/picture/KAG188614/KAG188614.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0169,sample_images/HERB_0169.jpg,Ixora nigricans R.Br. ex Wight & Arn.,Rubiaceae,VN,2024,6196928726,https://dbs.kaum.kagoshima-u.ac.jp/musedb/s_plant/picture/KAG188598/KAG188598.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0171,sample_images/HERB_0171.jpg,Hedyotis acutangula Champ. ex Benth.,Rubiaceae,TH,2023,6367045315,https://d2jcv3kl45hlgi.cloudfront.net/51a38bd7c18aaa3d14a027c9d596783f.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0174,sample_images/HERB_0174.jpg,Jasminum funale Decne.,Oleaceae,TL,2015,2515083840,https://medialib.naturalis.nl/file/id/L.3978197/format/large,FALSE,NA,NA,NA,NA,NA
+HERB_0175,sample_images/HERB_0175.jpg,Cleome viscosa L.,Cleomaceae,VN,2024,6196927217,https://dbs.kaum.kagoshima-u.ac.jp/musedb/s_plant/picture/KAG188650/KAG188650.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0176,sample_images/HERB_0176.jpg,Munronia pinnata (Wall.) Harms,Meliaceae,TL,2015,2515097352,https://medialib.naturalis.nl/file/id/L.3978085/format/large,FALSE,NA,NA,NA,NA,NA
+HERB_0177,sample_images/HERB_0177.jpg,Terminalia citrina (Gaertn.) Roxb.,Combretaceae,SG,2020,4977568467,https://d2jcv3kl45hlgi.cloudfront.net/6b5ff3c2724f5e6068df8953f292176a.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0178,sample_images/HERB_0178.jpg,Momordica cochinchinensis (Lour.) Spreng.,Cucurbitaceae,SG,2021,4608028512,https://d2jcv3kl45hlgi.cloudfront.net/490e1a19149ef7adc4ba30b49a279691.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0180,sample_images/HERB_0180.jpg,Impatiens pachycaulon M.F.Newman,Balsaminaceae,LA,2024,6196923578,https://dbs.kaum.kagoshima-u.ac.jp/musedb/s_plant/picture/KAG187613/KAG187613.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0183,sample_images/HERB_0183.jpg,Embelia ribes Burm.fil.,Primulaceae,LA,2024,6196924885,https://dbs.kaum.kagoshima-u.ac.jp/musedb/s_plant/picture/KAG187292/KAG187292.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0186,sample_images/HERB_0186.jpg,Sida rhombifolia L.,Malvaceae,TL,2020,5207165330,https://medialib.naturalis.nl/file/id/L.4578451/format/large,FALSE,NA,NA,NA,NA,NA
+HERB_0187,sample_images/HERB_0187.jpg,Hedyotis uncinella Hook. & Arn.,Rubiaceae,TH,2023,6367014364,https://d2jcv3kl45hlgi.cloudfront.net/39e56e11390151180d6329adce30f049.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0192,sample_images/HERB_0192.jpg,Cyrtandra penduliflora Kraenzl.,Gesneriaceae,BN,2019,4922184340,https://d2jcv3kl45hlgi.cloudfront.net/d9c6e7fc51b6e3aeb83da58fa7c0abbf.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0194,sample_images/HERB_0194.jpg,Alangium longiflorum var. hirsutum (Bloemb.) W.J.de Wilde & Duyfjes,Cornaceae,SG,2021,4607897501,https://d2jcv3kl45hlgi.cloudfront.net/3e1537f93ff08e0e55fcc033dd11490d.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0197,sample_images/HERB_0197.jpg,Congea tomentosa Roxb.,Lamiaceae,SG,2020,4607896520,https://d2jcv3kl45hlgi.cloudfront.net/10d6071f0f34eab7f2319c6ec1d14e41.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0198,sample_images/HERB_0198.jpg,Alchornea tiliifolia (Benth.) Müll.Arg.,Euphorbiaceae,TH,2023,6367095322,https://d2jcv3kl45hlgi.cloudfront.net/ff500ef3aaf0573861eebda3596e3642.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0199,sample_images/HERB_0199.jpg,Markhamia stipulata (Wall.) Seem.,Bignoniaceae,VN,2024,6196923973,https://dbs.kaum.kagoshima-u.ac.jp/musedb/s_plant/picture/KAG188659/KAG188659.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0202,sample_images/HERB_0202.jpg,Metrosideros collina (Forst.) A.Gray,Myrtaceae,ID,2019,4601916978,https://d2jcv3kl45hlgi.cloudfront.net/a6bef903db2ef2aa444236ed86144983.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0203,sample_images/HERB_0203.jpg,"Uvaria clementis (Merr.) Attanayake, I.M.Turner & R.M.K.Saunde",Annonaceae,SG,2020,5130191500,https://d2jcv3kl45hlgi.cloudfront.net/88629e3c41364f65d2210730e3cdf457.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0204,sample_images/HERB_0204.jpg,Harpullia arborea (Blanco) Radlk.,Sapindaceae,TL,2015,2514978032,https://medialib.naturalis.nl/file/id/L.3978170/format/large,FALSE,NA,NA,NA,NA,NA
+HERB_0205,sample_images/HERB_0205.jpg,Gmelina asiatica L.,Lamiaceae,VN,2024,6196926495,https://dbs.kaum.kagoshima-u.ac.jp/musedb/s_plant/picture/KAG188661/KAG188661.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0206,sample_images/HERB_0206.jpg,Hiptage calcicola Sirirugsa,Malpighiaceae,TH,2022,4866496790,https://d2jcv3kl45hlgi.cloudfront.net/55f8a4c09b40e0ebb2a4b40b0cb83ea4.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0207,sample_images/HERB_0207.jpg,Begonia baviensis Gagnep.,Begoniaceae,VN,2024,5895917427,https://plant.depo.msu.ru/open/public/item/MW1048828/img/0.jpg?gbif,FALSE,NA,NA,NA,NA,NA
+HERB_0211,sample_images/HERB_0211.jpg,Phaseolus lunatus L.,Fabaceae,TL,2015,2515067664,https://medialib.naturalis.nl/file/id/L.3978176/format/large,FALSE,NA,NA,NA,NA,NA
+HERB_0212,sample_images/HERB_0212.jpg,Ficus septica Burm.fil.,Moraceae,TL,2021,5207106335,https://medialib.naturalis.nl/file/id/L.4578463/format/large,FALSE,NA,NA,NA,NA,NA
+HERB_0214,sample_images/HERB_0214.jpg,Xerospermum noronhianum (Blume) Blume,Sapindaceae,LA,2024,6196923823,https://dbs.kaum.kagoshima-u.ac.jp/musedb/s_plant/picture/KAG187640/KAG187640.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0216,sample_images/HERB_0216.jpg,Diospyros retrofracta Bakh.,Ebenaceae,LA,2024,6196925205,https://dbs.kaum.kagoshima-u.ac.jp/musedb/s_plant/picture/KAG187417/KAG187417.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0217,sample_images/HERB_0217.jpg,Catunaregam tomentosa (Blume ex DC.) Tirveng.,Rubiaceae,TH,2022,4858972296,https://d2jcv3kl45hlgi.cloudfront.net/4393b56d7f39101c783e94595baabcd3.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0219,sample_images/HERB_0219.jpg,Ardisia pubicalyx Miq.,Primulaceae,LA,2024,6196923887,https://dbs.kaum.kagoshima-u.ac.jp/musedb/s_plant/picture/KAG187181/KAG187181.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0220,sample_images/HERB_0220.jpg,Pluchea indica (L.) Less.,Asteraceae,VN,2024,6196927400,https://dbs.kaum.kagoshima-u.ac.jp/musedb/s_plant/picture/KAG188630/KAG188630.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0221,sample_images/HERB_0221.jpg,Hibiscus tiliaceus L.,Malvaceae,VN,2024,6196923599,https://dbs.kaum.kagoshima-u.ac.jp/musedb/s_plant/picture/KAG188633/KAG188633.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0222,sample_images/HERB_0222.jpg,Thalictrum javanicum Blume,Ranunculaceae,ID,2020,5832054895,https://images.mobot.org/tropicosimages6/detailimages/TropicosImagesVol6/102215000/E7B9487D-849B-4E70-B9CC-5C441018B6B6.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0224,sample_images/HERB_0224.jpg,Triomma malaccensis Hook.fil.,Burseraceae,SG,2021,4519442361,https://d2jcv3kl45hlgi.cloudfront.net/9690f478a3a6679031c4be9a6e8b3b7a.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0225,sample_images/HERB_0225.jpg,Broussonetia papyrifera (L.) L'Hér. ex Vent.,Moraceae,TH,2023,6450134301,https://d2jcv3kl45hlgi.cloudfront.net/ce51f9e7d90c38e0147f7fb24d61d479.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0227,sample_images/HERB_0227.jpg,Shorea parvifolia Dyer,Dipterocarpaceae,ID,2020,4527875664,https://s3.amazonaws.com/huhspecimenimages/JPG/02621444.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0228,sample_images/HERB_0228.jpg,Ardisia villosa Roxb.,Primulaceae,TH,2023,5166320348,https://d2jcv3kl45hlgi.cloudfront.net/5efe777c4f63c24da4ab1f4a68d00729.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0230,sample_images/HERB_0230.jpg,Hopea ferrea Laness.,Dipterocarpaceae,LA,2024,6196925424,https://dbs.kaum.kagoshima-u.ac.jp/musedb/s_plant/picture/KAG187480/KAG187480.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0231,sample_images/HERB_0231.jpg,Thottea penitilobata Ding Hou,Aristolochiaceae,BN,2019,4929021659,https://d2jcv3kl45hlgi.cloudfront.net/8bb5aa88bf81d690b85659cec77fb7d6.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0235,sample_images/HERB_0235.jpg,Lagerstroemia cochinchinensis Laness.,Lythraceae,LA,2024,6196923962,https://dbs.kaum.kagoshima-u.ac.jp/musedb/s_plant/picture/KAG187623/KAG187623.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0236,sample_images/HERB_0236.jpg,Mitrephora maingayi Hook.f. & Thomson,Annonaceae,VN,2024,5895916534,https://plant.depo.msu.ru/open/public/item/MW1048522/img/0.jpg?gbif,FALSE,NA,NA,NA,NA,NA
+HERB_0237,sample_images/HERB_0237.jpg,Solanum erianthum D.Don,Solanaceae,TH,2023,6450153304,https://d2jcv3kl45hlgi.cloudfront.net/2ff20cdb410b247fc03c5b4d2e718c22.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0238,sample_images/HERB_0238.jpg,Michelia tonkinensis A.Chev.,Magnoliaceae,VN,2024,4907054583,https://images.mobot.org/tropicosimages6/detailimages/TropicosImagesVol6/102539000/A8FE640F-6D2B-4F97-9824-A9B264438775.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0241,sample_images/HERB_0241.jpg,Pseudodissochaeta assamica (C.B.Clarke) M.P.Nayar,Melastomataceae,LA,2024,6196923593,https://dbs.kaum.kagoshima-u.ac.jp/musedb/s_plant/picture/KAG187289/KAG187289.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0244,sample_images/HERB_0244.jpg,Connarus semidecandrus Jack,Connaraceae,LA,2024,6196925098,https://dbs.kaum.kagoshima-u.ac.jp/musedb/s_plant/picture/KAG187643/KAG187643.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0245,sample_images/HERB_0245.jpg,Vitex vestita Wall. ex Walp.,Lamiaceae,BN,2019,4938753242,https://d2jcv3kl45hlgi.cloudfront.net/9c8cfe512ffeacdb44258589bbd05c7b.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0247,sample_images/HERB_0247.jpg,Antidesma ghaesembilla Gaertn.,Phyllanthaceae,VN,2024,6196924135,https://dbs.kaum.kagoshima-u.ac.jp/musedb/s_plant/picture/KAG188637/KAG188637.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0248,sample_images/HERB_0248.jpg,Uncaria gambir (W.Hunter) Roxb.,Rubiaceae,SG,2022,4607894505,https://d2jcv3kl45hlgi.cloudfront.net/86409c3be7fc967c195fef9b97c2233d.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0250,sample_images/HERB_0250.jpg,Myristica borneensis Warb.,Myristicaceae,BN,2019,5895916706,https://plant.depo.msu.ru/open/public/item/MW1048523/img/0.jpg?gbif,FALSE,NA,NA,NA,NA,NA
+HERB_0252,sample_images/HERB_0252.jpg,Clematis burmanica Lace,Ranunculaceae,TH,2023,6450122306,https://d2jcv3kl45hlgi.cloudfront.net/9cc554bf7de990fff703442a02e50600.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0253,sample_images/HERB_0253.jpg,Iodes cirrhosa Turcz.,Icacinaceae,TH,2022,4858957921,https://d2jcv3kl45hlgi.cloudfront.net/61ac6a17ccd33e07f59d322f874579cb.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0254,sample_images/HERB_0254.jpg,Lysimachia baviensis C.M.Hu,Primulaceae,VN,2024,5895917221,https://plant.depo.msu.ru/open/public/item/MW1048937/img/0.jpg?gbif,FALSE,NA,NA,NA,NA,NA
+HERB_0256,sample_images/HERB_0256.jpg,Scleromitrion brachypodum (DC.) T.C.Hsu,Rubiaceae,MY,2024,4974434785,https://plant.depo.msu.ru/open/public/item/MW1047898/img/0.jpg?gbif,FALSE,NA,NA,NA,NA,NA
+HERB_0257,sample_images/HERB_0257.jpg,Glochidion rubrum Blume,Phyllanthaceae,VN,2024,6196930010,https://dbs.kaum.kagoshima-u.ac.jp/musedb/s_plant/picture/KAG188656/KAG188656.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0263,sample_images/HERB_0263.jpg,Ficus microcarpa L.fil.,Moraceae,LA,2024,6196924921,https://dbs.kaum.kagoshima-u.ac.jp/musedb/s_plant/picture/KAG187195/KAG187195.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0265,sample_images/HERB_0265.jpg,Canavalia papuana Merr. & L.M.Perry,Fabaceae,TL,2015,2515141813,https://medialib.naturalis.nl/file/id/L.3978171/format/large,FALSE,NA,NA,NA,NA,NA
+HERB_0267,sample_images/HERB_0267.jpg,Pittosporum ferrugineum W.T.Aiton,Pittosporaceae,TH,2022,4519457298,https://d2jcv3kl45hlgi.cloudfront.net/3f4e12067679ad8d3d986eb90869ad65.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0268,sample_images/HERB_0268.jpg,Antidesma ghaesembilla Gaertn.,Phyllanthaceae,TL,2021,5207120335,https://medialib.naturalis.nl/file/id/L.4578460/format/large,FALSE,NA,NA,NA,NA,NA
+HERB_0269,sample_images/HERB_0269.jpg,Medinilla radicans (Blume) Blume,Melastomataceae,TL,2015,2515058816,https://medialib.naturalis.nl/file/id/L.3978190/format/large,FALSE,NA,NA,NA,NA,NA
+HERB_0270,sample_images/HERB_0270.jpg,Cyrtandra penduliflora Kraenzl.,Gesneriaceae,BN,2019,4922206102,https://d2jcv3kl45hlgi.cloudfront.net/f75bb24b49646e20a624c28ae6f01233.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0272,sample_images/HERB_0272.jpg,Piper nigrum L.,Piperaceae,VN,2024,4907016258,https://images.mobot.org/tropicosimages6/detailimages/TropicosImagesVol6/102539000/6CBDFAD5-D1D3-4CF6-A3F1-D834F4E54DB5.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0274,sample_images/HERB_0274.jpg,Cyathula prostrata (L.) Blume,Amaranthaceae,LA,2024,6196924057,https://dbs.kaum.kagoshima-u.ac.jp/musedb/s_plant/picture/KAG187191/KAG187191.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0276,sample_images/HERB_0276.jpg,Prunus grisea (Blume ex C.Müll.) Kalkman,Rosaceae,PH,2024,5833058478,https://web.corral.tacc.utexas.edu/brit/BRIT/BRIT1150000/BRIT1150239.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0277,sample_images/HERB_0277.jpg,Maesa indica (Roxb.) Sweet,Primulaceae,TH,2023,6450154317,https://d2jcv3kl45hlgi.cloudfront.net/0458d39da6a06264b81e3ecea7f0c2ae.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0278,sample_images/HERB_0278.jpg,Drypetes hainanensis Merr.,Putranjivaceae,VN,2024,6196924392,https://dbs.kaum.kagoshima-u.ac.jp/musedb/s_plant/picture/KAG188577/KAG188577.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0279,sample_images/HERB_0279.jpg,Sindora velutina Baker,Fabaceae,SG,2022,4607891513,https://d2jcv3kl45hlgi.cloudfront.net/9c31d583ce72f0460373b977f0d74a8e.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0280,sample_images/HERB_0280.jpg,Urobotrya siamensis Hiepko,Opiliaceae,LA,2024,6196923591,https://dbs.kaum.kagoshima-u.ac.jp/musedb/s_plant/picture/KAG187385/KAG187385.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0282,sample_images/HERB_0282.jpg,Acalypha indica L.,Euphorbiaceae,SG,2020,4607892498,https://d2jcv3kl45hlgi.cloudfront.net/83dc775ea5feb68aca58e7ece98a1622.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0283,sample_images/HERB_0283.jpg,Koilodepas longifolium Hook.f.,Euphorbiaceae,LA,2024,6196925412,https://dbs.kaum.kagoshima-u.ac.jp/musedb/s_plant/picture/KAG187216/KAG187216.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0285,sample_images/HERB_0285.jpg,Homonoia riparia Lour.,Euphorbiaceae,LA,2024,6196925440,https://dbs.kaum.kagoshima-u.ac.jp/musedb/s_plant/picture/KAG187183/KAG187183.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0288,sample_images/HERB_0288.jpg,Triomma malaccensis Hook.fil.,Burseraceae,SG,2021,4519431336,https://d2jcv3kl45hlgi.cloudfront.net/0ea102af769ba796046c831cc4df01fa.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0289,sample_images/HERB_0289.jpg,Saraca declinata (Jack) Miq.,Fabaceae,LA,2024,6196924449,https://dbs.kaum.kagoshima-u.ac.jp/musedb/s_plant/picture/KAG187582/KAG187582.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0290,sample_images/HERB_0290.jpg,Labisia pumila (Blume) Fern.-Vill.,Primulaceae,BN,2019,4607889555,https://d2jcv3kl45hlgi.cloudfront.net/62a48044e75575121e5b35e6faaa0ce2.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0292,sample_images/HERB_0292.jpg,Oxyceros bispinosus (Griff.) Tirveng.,Rubiaceae,LA,2024,6196923459,https://dbs.kaum.kagoshima-u.ac.jp/musedb/s_plant/picture/KAG187356/KAG187356.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0293,sample_images/HERB_0293.jpg,Iodocephalopsis eberhardtii (Gagnep.) Bunwong & H.Rob.,Asteraceae,TH,2023,6367021354,https://d2jcv3kl45hlgi.cloudfront.net/e63ca62b8efa5e5435136da92df64512.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0294,sample_images/HERB_0294.jpg,Euphorbia hirta L.,Euphorbiaceae,VN,2024,6196928628,https://dbs.kaum.kagoshima-u.ac.jp/musedb/s_plant/picture/KAG188617/KAG188617.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0296,sample_images/HERB_0296.jpg,Bombycidendron grewiifolium (Hassk.) Zoll. & Moritzi,Malvaceae,LA,2024,6196924839,https://dbs.kaum.kagoshima-u.ac.jp/musedb/s_plant/picture/KAG187363/KAG187363.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0298,sample_images/HERB_0298.jpg,Wrightia pubescens R.Br.,Apocynaceae,VN,2024,6196926007,https://dbs.kaum.kagoshima-u.ac.jp/musedb/s_plant/picture/KAG188641/KAG188641.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0299,sample_images/HERB_0299.jpg,Deutzianthus tonkinensis Gagnep.,Euphorbiaceae,VN,2024,5895915767,https://plant.depo.msu.ru/open/public/item/MW1048745/img/0.jpg?gbif,FALSE,NA,NA,NA,NA,NA
+HERB_0300,sample_images/HERB_0300.jpg,Gomphostemma strobilinum Wall. ex Benth.,Lamiaceae,TH,2023,6450132305,https://d2jcv3kl45hlgi.cloudfront.net/e2f8a7d0e78cf93aadddc090100d10cb.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0301,sample_images/HERB_0301.jpg,Peristrophe lanceolaria (Roxb.) Nees,Acanthaceae,TH,2023,6450214303,https://d2jcv3kl45hlgi.cloudfront.net/109739ed5839fa0ad4e7b3a185b14294.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0302,sample_images/HERB_0302.jpg,Acacia confusa Merr.,Fabaceae,TH,2022,4858964977,https://d2jcv3kl45hlgi.cloudfront.net/b1f4a93d1b0aeb74f325a128abed23b9.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0303,sample_images/HERB_0303.jpg,Gomphostemma strobilinum Wall. ex Benth.,Lamiaceae,TH,2023,6450127310,https://d2jcv3kl45hlgi.cloudfront.net/e177261cb888c38e836008b3c2a69ce2.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0304,sample_images/HERB_0304.jpg,Ardisia complanata Wall.,Primulaceae,MM,2019,4938758974,https://d2jcv3kl45hlgi.cloudfront.net/f1a1754a1151e0ebda2d2dda98732fcc.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0306,sample_images/HERB_0306.jpg,Dodonaea viscosa (L.) Jacq.,Sapindaceae,SG,2020,4876571901,https://d2jcv3kl45hlgi.cloudfront.net/efc9d44baeeddec39d28adab1d1e3f1a.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0309,sample_images/HERB_0309.jpg,Ardisia elliptica Thunb.,Primulaceae,BN,2019,3004103373,https://plant.depo.msu.ru/open/public/item/MW0757545/img/0.jpg?gbif,FALSE,NA,NA,NA,NA,NA
+HERB_0311,sample_images/HERB_0311.jpg,Ficus glaberrima Blume,Moraceae,LA,2024,6196923577,https://dbs.kaum.kagoshima-u.ac.jp/musedb/s_plant/picture/KAG187179/KAG187179.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0312,sample_images/HERB_0312.jpg,Begonia labiensis (Sands) S.Julia,Begoniaceae,BN,2019,4928991722,https://d2jcv3kl45hlgi.cloudfront.net/255e6eb010be305cba2be0cbb2ce751b.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0313,sample_images/HERB_0313.jpg,Ficus chartacea (Wall. ex Kurz) Wall. ex King,Moraceae,TH,2022,4519457299,https://d2seqvvyy3b8p2.cloudfront.net/d7267e31841a66a1e0e564fbb289e694.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0314,sample_images/HERB_0314.jpg,Cipadessa baccifera (Roxb. ex Roth) Miq.,Meliaceae,TH,2022,4858980367,https://d2jcv3kl45hlgi.cloudfront.net/6e771cef4d7db6e5549b6847d2f79572.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0316,sample_images/HERB_0316.jpg,Suregada multiflora (A.Juss.) Baill.,Euphorbiaceae,VN,2024,6196925189,https://dbs.kaum.kagoshima-u.ac.jp/musedb/s_plant/picture/KAG188608/KAG188608.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0317,sample_images/HERB_0317.jpg,Argyreia reinwardtiana (Blume) Miq.,Convolvulaceae,TL,2015,2514987764,https://medialib.naturalis.nl/file/id/L.3978091/format/large,FALSE,NA,NA,NA,NA,NA
+HERB_0322,sample_images/HERB_0322.jpg,Sonneratia ovata Backer,Lythraceae,VN,2024,6196927389,https://dbs.kaum.kagoshima-u.ac.jp/musedb/s_plant/picture/KAG188644/KAG188644.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0324,sample_images/HERB_0324.jpg,Jasminum craibianum Kerr,Oleaceae,TH,2023,6367029321,https://d2jcv3kl45hlgi.cloudfront.net/b233f3a162a10f5ebe6387a6f227e58b.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0325,sample_images/HERB_0325.jpg,Torenia crustacea (L.) Cham. & Schltdl.,Linderniaceae,ID,2023,4974430718,https://plant.depo.msu.ru/open/public/item/MW1047858/img/0.jpg?gbif,FALSE,NA,NA,NA,NA,NA
+HERB_0327,sample_images/HERB_0327.jpg,Boerhavia repens L.,Nyctaginaceae,SG,2021,4607888515,https://d2jcv3kl45hlgi.cloudfront.net/7d51ea38a007a4663b0aa50fda1c1670.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0329,sample_images/HERB_0329.jpg,Homalanthus novoguineensis (Warb.) K.Schum.,Euphorbiaceae,TL,2015,2515058815,https://medialib.naturalis.nl/file/id/L.3978107/format/large,FALSE,NA,NA,NA,NA,NA
+HERB_0330,sample_images/HERB_0330.jpg,Ardisia villosa Roxb.,Primulaceae,TH,2023,6367031345,https://d2jcv3kl45hlgi.cloudfront.net/1f21e2d4c5cb4c330a5327889e8040a0.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0332,sample_images/HERB_0332.jpg,Meliosma simplicifolia (Roxb.) Walp.,Sabiaceae,VN,2024,5895917567,https://plant.depo.msu.ru/open/public/item/MW1048784/img/0.jpg?gbif,FALSE,NA,NA,NA,NA,NA
+HERB_0333,sample_images/HERB_0333.jpg,Ventilago denticulata Willd.,Rhamnaceae,MM,2019,4945330796,https://d2jcv3kl45hlgi.cloudfront.net/25e0510d8a1f19b6be6921fcd9b67a88.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0334,sample_images/HERB_0334.jpg,Terminalia citrina (Gaertn.) Roxb. ex Fleming,Combretaceae,SG,2020,4459009824,https://medialib.naturalis.nl/file/id/L.4482924/format/large,FALSE,NA,NA,NA,NA,NA
+HERB_0335,sample_images/HERB_0335.jpg,Polyspora singaporeana (Wall. ex Ridl.) Niissalo & L.M.Choo,Theaceae,SG,2020,5060841456,https://d2jcv3kl45hlgi.cloudfront.net/9a560f383a1dd7a07799db707720249c.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0338,sample_images/HERB_0338.jpg,Cnestis palala (Lour.) Merr.,Connaraceae,SG,2021,4519435766,https://d2jcv3kl45hlgi.cloudfront.net/4032bb398ecad7a7234950c784636a73.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0339,sample_images/HERB_0339.jpg,Strombosia ceylanica Gardner,Strombosiaceae,BN,2019,4938754986,https://d2jcv3kl45hlgi.cloudfront.net/4a504942291724182061f58cf73c7691.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0340,sample_images/HERB_0340.jpg,Ziziphus rubiginosa D.G.Long & Rae,Rhamnaceae,MM,2019,4947575239,https://d2jcv3kl45hlgi.cloudfront.net/57694df663dd1a0ed7a9724c6d86efc2.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0343,sample_images/HERB_0343.jpg,Pittosporopsis kerrii Craib,Metteniusaceae,TH,2022,4858967610,https://d2jcv3kl45hlgi.cloudfront.net/25028ed8e779c5d94222a450a75d8b7e.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0345,sample_images/HERB_0345.jpg,Callicarpa involucrata Merr.,Lamiaceae,BN,2019,4938759887,https://d2jcv3kl45hlgi.cloudfront.net/94354c5a0a088d1eeada157ecb61395a.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0353,sample_images/HERB_0353.jpg,Gardenia beamanii Y.W.Low,Rubiaceae,BN,2019,4929025335,https://d2jcv3kl45hlgi.cloudfront.net/1f3ee9e27f813902c2e478e9ba95cfc9.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0354,sample_images/HERB_0354.jpg,Salomonia cantoniensis Lour.,Polygalaceae,TH,2023,6367019301,https://d2jcv3kl45hlgi.cloudfront.net/b40e104989df0f87788eb018ca28a9b4.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0356,sample_images/HERB_0356.jpg,Maesa ramentacea (Roxb.) A.DC.,Primulaceae,LA,2024,6196923638,https://dbs.kaum.kagoshima-u.ac.jp/musedb/s_plant/picture/KAG187530/KAG187530.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0357,sample_images/HERB_0357.jpg,Mitracarpus hirtus (L.) DC.,Rubiaceae,TH,2023,6367073354,https://d2jcv3kl45hlgi.cloudfront.net/40d196718f89d83c1b4552cabe9edbad.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0359,sample_images/HERB_0359.jpg,Sindora wallichii Benth.,Fabaceae,SG,2022,4607892497,https://d2jcv3kl45hlgi.cloudfront.net/6b9bbe4d01ac4edbf8533650c3d449e4.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0360,sample_images/HERB_0360.jpg,Helicia hainanensis Hayata,Proteaceae,LA,2024,6196924877,https://dbs.kaum.kagoshima-u.ac.jp/musedb/s_plant/picture/KAG187563/KAG187563.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0361,sample_images/HERB_0361.jpg,Impatiens suksathanii Ruchis. & Triboun,Balsaminaceae,TH,2022,4866482085,https://d2jcv3kl45hlgi.cloudfront.net/89bd4eb41e97e1b3c79bb82dbfbd4a1f.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0362,sample_images/HERB_0362.jpg,Syzygium obtusum Merr. & L.M.Perry,Myrtaceae,LA,2024,6196924600,https://dbs.kaum.kagoshima-u.ac.jp/musedb/s_plant/picture/KAG187374/KAG187374.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0363,sample_images/HERB_0363.jpg,Alysicarpus bupleurifolius (L.) DC.,Fabaceae,TL,2015,2515076282,https://medialib.naturalis.nl/file/id/L.3978113/format/large,FALSE,NA,NA,NA,NA,NA
+HERB_0364,sample_images/HERB_0364.jpg,Lagerstroemia cochinchinensis Laness.,Lythraceae,VN,2024,6196929019,https://dbs.kaum.kagoshima-u.ac.jp/musedb/s_plant/picture/KAG188651/KAG188651.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0367,sample_images/HERB_0367.jpg,Duabanga moluccana Blume,Lythraceae,ID,2019,4601915957,https://d2jcv3kl45hlgi.cloudfront.net/e52374e7e28f2292c72c9c0ff31553a1.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0368,sample_images/HERB_0368.jpg,Kunstleria ridleyi Prain,Fabaceae,SG,2021,4519431340,https://d2jcv3kl45hlgi.cloudfront.net/160fb9781d5f07cc4337330cee0889d9.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0369,sample_images/HERB_0369.jpg,Leonotis nepetifolia (L.) R.Br.,Lamiaceae,TL,2018,5207160335,https://medialib.naturalis.nl/file/id/L.4578445/format/large,FALSE,NA,NA,NA,NA,NA
+HERB_0370,sample_images/HERB_0370.jpg,Pluchea indica (L.) Less.,Asteraceae,TL,2017,5207151334,https://medialib.naturalis.nl/file/id/L.4578461/format/large,FALSE,NA,NA,NA,NA,NA
+HERB_0371,sample_images/HERB_0371.jpg,Dysolobium grande (Wall. ex Benth.) Prain,Fabaceae,TH,2022,4858974969,https://d2jcv3kl45hlgi.cloudfront.net/10f060671124e46a835dfff464ac8545.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0373,sample_images/HERB_0373.jpg,Lysimachia chapaensis Merr.,Primulaceae,VN,2024,5895917540,https://plant.depo.msu.ru/open/public/item/MW1048938/img/0.jpg?gbif,FALSE,NA,NA,NA,NA,NA
+HERB_0374,sample_images/HERB_0374.jpg,Cleistanthus hirsutulus Hook.f.,Phyllanthaceae,LA,2024,6196923729,https://dbs.kaum.kagoshima-u.ac.jp/musedb/s_plant/picture/KAG187565/KAG187565.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0376,sample_images/HERB_0376.jpg,Combretum pilosum Roxb. ex G.Don,Combretaceae,LA,2024,6196924289,https://dbs.kaum.kagoshima-u.ac.jp/musedb/s_plant/picture/KAG187357/KAG187357.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0377,sample_images/HERB_0377.jpg,Elaeocarpus mutabilis Weibel,Elaeocarpaceae,BN,2019,4926517464,https://d2jcv3kl45hlgi.cloudfront.net/5d7300f8aa54654f5d6c9a12bb757df8.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0378,sample_images/HERB_0378.jpg,Cryptocarya ferrea Blume,Lauraceae,BN,2018,4519440226,https://d2jcv3kl45hlgi.cloudfront.net/315afb01989952c091d6b3ba9e37825b.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0380,sample_images/HERB_0380.jpg,Litsea firma (Blume) Hook.fil.,Lauraceae,SG,2021,4519440418,https://d2jcv3kl45hlgi.cloudfront.net/385d5c5094e41a0f1ea3727404ba1ebd.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0381,sample_images/HERB_0381.jpg,Styrax tonkinensis (Pierre) Craib ex Hartwich,Styracaceae,VN,2024,5895915542,https://plant.depo.msu.ru/open/public/item/MW1048953/img/0.jpg?gbif,FALSE,NA,NA,NA,NA,NA
+HERB_0383,sample_images/HERB_0383.jpg,Taxotrophis ilicifolia (Kurz) S.Vidal,Moraceae,VN,2024,6196923561,https://dbs.kaum.kagoshima-u.ac.jp/musedb/s_plant/picture/KAG188582/KAG188582.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0385,sample_images/HERB_0385.jpg,Iodes cirrhosa Turcz.,Icacinaceae,MM,2019,4519463766,https://d2jcv3kl45hlgi.cloudfront.net/ea8d6305ad1ee35aeeee097ec82bd4a5.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0386,sample_images/HERB_0386.jpg,Boerhavia repens L.,Nyctaginaceae,SG,2021,4607890502,https://d2jcv3kl45hlgi.cloudfront.net/a284228060c87036f6dbfd41f2f24ac7.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0388,sample_images/HERB_0388.jpg,Ardisia polysticta Miq.,Primulaceae,TH,2023,6367012308,https://d2jcv3kl45hlgi.cloudfront.net/75a41bec24285a8224d43581e16ee425.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0389,sample_images/HERB_0389.jpg,Leea indica (Burm.fil.) Merr.,Vitaceae,BN,2019,4938754987,https://d2jcv3kl45hlgi.cloudfront.net/13d825dc94aa0937827a62654c2829e1.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0390,sample_images/HERB_0390.jpg,Terminalia catappa L.,Combretaceae,VN,2024,6196928792,https://dbs.kaum.kagoshima-u.ac.jp/musedb/s_plant/picture/KAG188665/KAG188665.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0391,sample_images/HERB_0391.jpg,Macaranga denticulata (Blume) Müll.Arg.,Euphorbiaceae,LA,2024,6196925158,https://dbs.kaum.kagoshima-u.ac.jp/musedb/s_plant/picture/KAG187284/KAG187284.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0392,sample_images/HERB_0392.jpg,Docynia indica (Colebr. ex Wall.) Decne.,Rosaceae,VN,2024,4907029796,https://images.mobot.org/tropicosimages6/detailimages/TropicosImagesVol6/102539000/F884EC18-980A-4BAC-81D4-F11CC2F075D9.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0393,sample_images/HERB_0393.jpg,Cissus nodosa Blume,Vitaceae,SG,2020,4459009823,https://medialib.naturalis.nl/file/id/L.4482922/format/large,FALSE,NA,NA,NA,NA,NA
+HERB_0394,sample_images/HERB_0394.jpg,Pilea microphylla (L.) Liebm.,Urticaceae,VN,2024,6196928954,https://dbs.kaum.kagoshima-u.ac.jp/musedb/s_plant/picture/KAG188668/KAG188668.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0395,sample_images/HERB_0395.jpg,Erycibe borneensis var. collina Hoogland,Convolvulaceae,BN,2019,4608025527,https://d2jcv3kl45hlgi.cloudfront.net/6d8e1683ca7c4b7e42b7b2b78f28a4bd.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0396,sample_images/HERB_0396.jpg,Ardisia polysticta subsp. polysticta,Primulaceae,VN,2024,5895917248,https://plant.depo.msu.ru/open/public/item/MW1048930/img/0.jpg?gbif,FALSE,NA,NA,NA,NA,NA
+HERB_0397,sample_images/HERB_0397.jpg,Osmoxylon lineare (Merr.) Philipson,Araliaceae,SG,2020,4607894507,https://d2jcv3kl45hlgi.cloudfront.net/3a6c0fcacb8e121118bfdbc20a56bb56.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0398,sample_images/HERB_0398.jpg,Hibiscus tiliaceus L.,Malvaceae,VN,2024,6196927138,https://dbs.kaum.kagoshima-u.ac.jp/musedb/s_plant/picture/KAG188632/KAG188632.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0399,sample_images/HERB_0399.jpg,Cephalomappa malloticarpa J.J.Sm.,Euphorbiaceae,BN,2019,4938750334,https://d2jcv3kl45hlgi.cloudfront.net/0321716be4f0680b4118934c544f1cbb.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0400,sample_images/HERB_0400.jpg,Morinda citrifolia L.,Rubiaceae,VN,2024,6196925297,https://dbs.kaum.kagoshima-u.ac.jp/musedb/s_plant/picture/KAG188580/KAG188580.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0402,sample_images/HERB_0402.jpg,Lasianthus hirsutus (Roxb.) Merr.,Rubiaceae,TH,2022,4519459310,https://d2jcv3kl45hlgi.cloudfront.net/7d54e0dc8c5078dc835b5b9d182ba1e1.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0406,sample_images/HERB_0406.jpg,Trema tomentosum (Roxb.) H.Hara,Cannabaceae,TL,2019,5105795139,https://images.ala.org.au/image/proxyImageThumbnailLarge?imageId=b3173cad-ea7d-4f40-a72a-ac1b013b2e5c,TRUE,NA,NA,NA,NA,NA
+HERB_0407,sample_images/HERB_0407.jpg,Antidesma ghaesembilla Gaertn.,Phyllanthaceae,VN,2024,6196927107,https://dbs.kaum.kagoshima-u.ac.jp/musedb/s_plant/picture/KAG188664/KAG188664.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0411,sample_images/HERB_0411.jpg,Calotropis gigantea (L.) W.T.Aiton,Apocynaceae,VN,2024,6196929089,https://dbs.kaum.kagoshima-u.ac.jp/musedb/s_plant/picture/KAG188636/KAG188636.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0413,sample_images/HERB_0413.jpg,Osmoxylon borneense Seem.,Araliaceae,BN,2019,3004100327,https://plant.depo.msu.ru/open/public/item/MW0756648/img/0.jpg?gbif,FALSE,NA,NA,NA,NA,NA
+HERB_0414,sample_images/HERB_0414.jpg,Hedyotis rosmarinifolia (Pit.) Craib,Rubiaceae,TH,2023,6367080305,https://d2jcv3kl45hlgi.cloudfront.net/38ae6cd6dc399d81bd9322675e2678ef.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0415,sample_images/HERB_0415.jpg,Justicia ventricosa Wall. ex Nees,Acanthaceae,LA,2024,6196923305,https://dbs.kaum.kagoshima-u.ac.jp/musedb/s_plant/picture/KAG187182/KAG187182.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0417,sample_images/HERB_0417.jpg,Blumea balsamifera (L.) DC.,Asteraceae,LA,2024,6196925066,https://dbs.kaum.kagoshima-u.ac.jp/musedb/s_plant/picture/KAG187295/KAG187295.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0421,sample_images/HERB_0421.jpg,Ormosia sumatrana (Miq.) Prain,Fabaceae,BN,2018,4459013797,https://medialib.naturalis.nl/file/id/L.4482929/format/large,FALSE,NA,NA,NA,NA,NA
+HERB_0424,sample_images/HERB_0424.jpg,Boerhavia repens L.,Nyctaginaceae,VN,2024,6196929531,https://dbs.kaum.kagoshima-u.ac.jp/musedb/s_plant/picture/KAG188654/KAG188654.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0429,sample_images/HERB_0429.jpg,Brookea tomentosa Benth.,Plantaginaceae,BN,2019,4929001070,https://d2jcv3kl45hlgi.cloudfront.net/6074b84126df306856c94e6532e8e6aa.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0430,sample_images/HERB_0430.jpg,Prismatomeris beccariana (Baill. ex K.Schum.) J.T.Johanss.,Rubiaceae,BN,2019,4929001071,https://d2jcv3kl45hlgi.cloudfront.net/9ca74ed584565357706a129003b82ac2.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0432,sample_images/HERB_0432.jpg,Embelia ribes Burm.fil.,Primulaceae,MM,2019,4535502911,https://d2jcv3kl45hlgi.cloudfront.net/d773708e7e8f0dee8579a7ac19d7a586.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0435,sample_images/HERB_0435.jpg,Derris trifoliata Lour.,Fabaceae,VN,2024,6196925700,https://dbs.kaum.kagoshima-u.ac.jp/musedb/s_plant/picture/KAG188629/KAG188629.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0436,sample_images/HERB_0436.jpg,Polyalthia insignis (Hook.f.) Airy Shaw,Annonaceae,BN,2019,4938751989,https://d2jcv3kl45hlgi.cloudfront.net/6eb09a7d3a3fc1ec410a7fa0edfc2e51.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0437,sample_images/HERB_0437.jpg,Meliosma simplicifolia (Roxb.) Walp.,Sabiaceae,VN,2024,5895917635,https://plant.depo.msu.ru/open/public/item/MW1048785/img/0.jpg?gbif,FALSE,NA,NA,NA,NA,NA
+HERB_0438,sample_images/HERB_0438.jpg,Dolichandrone spathacea (L.fil.) K.Schum.,Bignoniaceae,VN,2024,6196925774,https://dbs.kaum.kagoshima-u.ac.jp/musedb/s_plant/picture/KAG188627/KAG188627.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0440,sample_images/HERB_0440.jpg,Rinorea anguifera (Lour.) Kuntze,Violaceae,VN,2024,6196928211,https://dbs.kaum.kagoshima-u.ac.jp/musedb/s_plant/picture/KAG188599/KAG188599.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0445,sample_images/HERB_0445.jpg,Cyanoneuron cyaneum (Hallier f.) Tange,Rubiaceae,BN,2019,4928987361,https://d2jcv3kl45hlgi.cloudfront.net/e7691d82b5a34bc4472bfd99ce409463.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0450,sample_images/HERB_0450.jpg,Piper ramipilum C.DC.,Piperaceae,SG,2020,5145849821,https://d2jcv3kl45hlgi.cloudfront.net/e821c1392e8a03d94a90ab58c27ca32e.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0451,sample_images/HERB_0451.jpg,Strobilanthes alternata (Burm.fil.) Moylan ex J.R.I.Wood,Acanthaceae,ID,2023,4974432756,https://plant.depo.msu.ru/open/public/item/MW1047887/img/0.jpg?gbif,FALSE,NA,NA,NA,NA,NA
+HERB_0452,sample_images/HERB_0452.jpg,Glochidion zeylanicum (Gaertn.) A.Juss.,Phyllanthaceae,SG,2020,4459018825,https://medialib.naturalis.nl/file/id/L.4482934/format/large,FALSE,NA,NA,NA,NA,NA
+HERB_0454,sample_images/HERB_0454.jpg,Ziziphus rubiginosa D.G.Long & Rae,Rhamnaceae,MM,2019,4945346066,https://d2jcv3kl45hlgi.cloudfront.net/3d69ff6fdf1cc39f5fa1b4c9a40d94f4.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0455,sample_images/HERB_0455.jpg,Achyranthes aspera L.,Amaranthaceae,VN,2024,6196925843,https://dbs.kaum.kagoshima-u.ac.jp/musedb/s_plant/picture/KAG188653/KAG188653.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0458,sample_images/HERB_0458.jpg,Psychotria asiatica L.,Rubiaceae,LA,2024,6196923719,https://dbs.kaum.kagoshima-u.ac.jp/musedb/s_plant/picture/KAG187288/KAG187288.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0460,sample_images/HERB_0460.jpg,Viburnum sempervirens var. smitinandii Fukuoka,Viburnaceae,TH,2023,5166248347,https://d2jcv3kl45hlgi.cloudfront.net/c0802f273e278c3c003cc1f05ae95ab0.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0462,sample_images/HERB_0462.jpg,Brucea javanica (L.) Merr.,Simaroubaceae,SG,2020,4977595977,https://d2jcv3kl45hlgi.cloudfront.net/857c2f537a9507f3fa92cb43f18b616d.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0463,sample_images/HERB_0463.jpg,Ficus virgata Reinw. ex Blume,Moraceae,TL,2015,2515042565,https://medialib.naturalis.nl/file/id/L.3978097/format/large,FALSE,NA,NA,NA,NA,NA
+HERB_0464,sample_images/HERB_0464.jpg,Cucumis hystrix Chakrav.,Cucurbitaceae,TH,2023,6450125301,https://d2jcv3kl45hlgi.cloudfront.net/4281de42a03b02c1bf9b9eb03193cf5b.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0467,sample_images/HERB_0467.jpg,Antidesma puncticulatum Miq.,Phyllanthaceae,VN,2024,6196926318,https://dbs.kaum.kagoshima-u.ac.jp/musedb/s_plant/picture/KAG188603/KAG188603.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0472,sample_images/HERB_0472.jpg,Uncaria callophylla Blume ex Korth.,Rubiaceae,SG,2020,4519454644,https://d2jcv3kl45hlgi.cloudfront.net/40bcb26a43264209f482514340c949a5.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0474,sample_images/HERB_0474.jpg,Ipomoea eriocarpa R.Br.,Convolvulaceae,TL,2015,2515042568,https://medialib.naturalis.nl/file/id/L.3978219/format/large,FALSE,NA,NA,NA,NA,NA
+HERB_0475,sample_images/HERB_0475.jpg,Canthium coffeoides Pierre ex Pit.,Rubiaceae,TH,2023,6450155305,https://d2jcv3kl45hlgi.cloudfront.net/0045eb8c9246f9404417836a8af1c9de.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0479,sample_images/HERB_0479.jpg,Psychotria bonii Pit.,Rubiaceae,LA,2024,6196925354,https://dbs.kaum.kagoshima-u.ac.jp/musedb/s_plant/picture/KAG187535/KAG187535.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0481,sample_images/HERB_0481.jpg,"Utania spicata (Baker) K.M.Wong, Sugumaran & Sugau",Gentianaceae,BN,2019,4928997968,https://d2jcv3kl45hlgi.cloudfront.net/162486843d6e1a694321d03454b1c126.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0484,sample_images/HERB_0484.jpg,Praxelis clematidea (Griseb.) R.M.King & H.Rob.,Asteraceae,SG,2022,5058345835,https://d2jcv3kl45hlgi.cloudfront.net/82dbcda89b38a7cc6b084231fe38ed21.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0485,sample_images/HERB_0485.jpg,Archidendron clypearia (Jack) I.C.Nielsen,Fabaceae,SG,2020,5276405049,https://d2jcv3kl45hlgi.cloudfront.net/c8e348ede86d256b762fbe6d1c0a67f7.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0488,sample_images/HERB_0488.jpg,Ficus religiosa L.,Moraceae,VN,2024,6196924863,https://dbs.kaum.kagoshima-u.ac.jp/musedb/s_plant/picture/KAG188587/KAG188587.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0489,sample_images/HERB_0489.jpg,Strophanthus wallichii A.DC.,Apocynaceae,LA,2024,6196925355,https://dbs.kaum.kagoshima-u.ac.jp/musedb/s_plant/picture/KAG187525/KAG187525.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0491,sample_images/HERB_0491.jpg,Cnestis palala (Lour.) Merr.,Connaraceae,SG,2021,4519448784,https://d2jcv3kl45hlgi.cloudfront.net/068f2ad02cb4ddbb7e501902858e90d0.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0494,sample_images/HERB_0494.jpg,Maesa indica (Roxb.) A.DC.,Primulaceae,VN,2024,5895917352,https://plant.depo.msu.ru/open/public/item/MW1048931/img/0.jpg?gbif,FALSE,NA,NA,NA,NA,NA
+HERB_0495,sample_images/HERB_0495.jpg,Sphenodesme mekongensis Dop,Lamiaceae,LA,2024,6196925033,https://dbs.kaum.kagoshima-u.ac.jp/musedb/s_plant/picture/KAG187504/KAG187504.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0496,sample_images/HERB_0496.jpg,Citrus × aurantiifolia (Christm.) Swingle,Rutaceae,TL,2019,5207140329,https://medialib.naturalis.nl/file/id/L.4578465/format/large,FALSE,NA,NA,NA,NA,NA
+HERB_0497,sample_images/HERB_0497.jpg,Broussonetia papyrifera (L.) L'Hér. ex Vent.,Moraceae,ID,2019,5841211218,https://brmas-media.s3-ap-northeast-1.amazonaws.com/hast/specimen/S_145380-m.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0498,sample_images/HERB_0498.jpg,Ficus auriculata Lour.,Moraceae,LA,2024,6196923366,https://dbs.kaum.kagoshima-u.ac.jp/musedb/s_plant/picture/KAG187186/KAG187186.jpg,FALSE,NA,NA,NA,NA,NA
+HERB_0499,sample_images/HERB_0499.jpg,Scutellaria khaoyaiensis A.J.Paton,Lamiaceae,TH,2023,6450156301,https://d2jcv3kl45hlgi.cloudfront.net/a13ab1c90c827a7e58e4573099a94734.jpg,FALSE,NA,NA,NA,NA,NA
