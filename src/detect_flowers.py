@@ -2,9 +2,9 @@
 detect_flowers.py — minimal flower-presence detector for herbarium sheets.
 
 Runs LeafMachine2's Plant Component Detector (PCD), a YOLOv5x6 model, via
-torch.hub. Of its 11 classes this tool uses flower_one (5), flower_many (6),
-and bud (7): a sheet is "flowering" if any active flower class clears --conf.
-Pass --no-bud to drop buds and count open flowers only.
+torch.hub. By default a sheet is "flowering" if a flower_one (5) or
+flower_many (6) detection clears --conf. Pass --include-buds to also count
+bud (7) detections (LM2's bud class lumps flower buds with vegetative buds).
 
 Writes sample_outputs/results.csv (one row per image) and annotated JPEGs.
 See README.md for setup, CLAUDE.md for methodology and constraints.
@@ -38,11 +38,11 @@ import torch
 warnings.filterwarnings("ignore", category=FutureWarning)
 warnings.filterwarnings("ignore", category=UserWarning)
 
-# PCD classes treated as "flowering structures". `bud` (7) counts by default —
-# a deliberate choice that makes "flowering" mean "reproductive structures
-# present" rather than "open flower visible". Pass --no-bud for classes 5 and 6
-# only. Per-class counts are always written to the CSV, so results can be
-# re-scored either way after the fact.
+# PCD classes treated as "flowering structures". By default only open flowers
+# (5, 6) count: LM2's `bud` class (7) lumps flower buds with vegetative buds, so
+# counting it inflates "flowering". Pass --include-buds to add class 7. Per-class
+# counts and all_flower_boxes always cover 5/6/7 in the CSV, so a run can be
+# re-scored with buds either way after the fact.
 FLOWER_CLASS_NAMES = {5: "flower_one", 6: "flower_many", 7: "bud"}
 IMG_EXTENSIONS = {".jpg", ".jpeg", ".png", ".tif", ".tiff", ".bmp"}
 
@@ -55,8 +55,9 @@ def parse_args():
     p.add_argument("--conf", type=float, default=0.1, help="Detection confidence threshold (default 0.1)")
     p.add_argument("--imgsz", type=int, default=1280, help="Inference resolution (match training: 1280)")
     p.add_argument("--device", default="", help="'cpu', 'cuda:0', 'mps', or '' to auto-select")
-    p.add_argument("--no-bud", action="store_true",
-                   help="Exclude 'bud' detections from the flowering decision (default: buds count)")
+    p.add_argument("--include-buds", action="store_true",
+                   help="Also count 'bud' detections toward the flowering decision "
+                        "and draw them (default: open flowers only)")
     p.add_argument("--no-annotate", action="store_true", help="Skip saving annotated images (faster, CSV only)")
     return p.parse_args()
 
@@ -116,7 +117,7 @@ def main():
           f"torch.hub on first run, which needs internet access once)...")
     model = load_model(args.weights, args.conf, args.device)
 
-    active_ids = [5, 6] if args.no_bud else [5, 6, 7]
+    active_ids = [5, 6, 7] if args.include_buds else [5, 6]
     print(f"Flowering classes: {[FLOWER_CLASS_NAMES[i] for i in active_ids]} "
           f"(conf >= {args.conf})")
 
@@ -132,8 +133,8 @@ def main():
         dets = results.pandas().xyxy[0]
 
         # `flower_dets` drives the decision and the annotations — it honours
-        # --no-bud. `all_flower_dets` (always 5/6/7) is only for CSV reporting,
-        # so n_bud and all_flower_boxes record buds even when --no-bud is set.
+        # --include-buds. `all_flower_dets` (always 5/6/7) is only for CSV
+        # reporting, so n_bud and all_flower_boxes record buds regardless.
         flower_dets = dets[dets["class"].isin(active_ids)]
         all_flower_dets = dets[dets["class"].isin(FLOWER_CLASS_NAMES)]
 

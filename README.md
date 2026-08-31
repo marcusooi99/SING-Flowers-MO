@@ -1,7 +1,7 @@
 # Herbarium Sheet Flower Detector
 
 A minimal working tool that detects whether a herbarium sheet image contains
-flowers (open flowers and buds) and draws bounding boxes around them.
+open flowers and draws bounding boxes around them.
 
 It reuses the pretrained **Plant Component Detector (PCD)** from
 [LeafMachine2](https://github.com/Gene-Weaver/LeafMachine2) (Weaver & Smith,
@@ -50,7 +50,7 @@ python scripts/fetch_weights.py
 From the repo root. `--input` and `--output` are the only required arguments:
 
 ```bash
-python src/detect_flowers.py --input sample_images --output sample_outputs
+python src/detect_flowers.py --input images/demo_images --output outputs/demo_outputs
 ```
 
 Optional flags:
@@ -60,18 +60,18 @@ Optional flags:
 | `--weights` | `weights/LeafPriority.pt` | Path to the PCD checkpoint. |
 | `--conf` | `0.1` | Detection confidence threshold. |
 | `--imgsz` | `1280` | Inference resolution (the PCD was trained at 1280). |
-| `--no-bud` | off | Exclude `bud` detections from the flowering decision and the annotated images (by default buds count as flowering structures). `n_bud` and `all_flower_boxes` in the CSV still record buds regardless. |
+| `--include-buds` | off | Also count `bud` detections toward the flowering decision and draw them. By default only open flowers (`flower_one`, `flower_many`) count — LM2's `bud` class mixes flower buds with vegetative buds. `n_bud` and `all_flower_boxes` in the CSV record buds either way. |
 | `--no-annotate` | off | Skip writing annotated images (CSV only, faster). |
 | `--device` | auto | `cpu`, `cuda:0` (NVIDIA GPU), or `mps` (Apple Silicon). |
 
 Output:
 
-- `sample_outputs/results.csv` — one row per image: `has_flower` (0/1), per-class
+- `demo_outputs/results.csv` — one row per image: `has_flower` (0/1), per-class
   counts (`n_flower_one`, `n_flower_many`, `n_bud`), max confidence, and
   `all_flower_boxes` (every flower/bud box as JSON). The per-class counts and
-  `all_flower_boxes` always cover classes 5/6/7, even under `--no-bud`.
-- `sample_outputs/annotated/*.jpg` — input images with the counted flower boxes
-  drawn (buds omitted when `--no-bud` is set).
+  `all_flower_boxes` always cover classes 5/6/7, even without `--include-buds`.
+- `demo_outputs/annotated/*.jpg` — input images with the counted flower boxes
+  drawn (buds included only under `--include-buds`).
 
 The first run clones the yolov5 v7.0 codebase into `~/.cache/torch/hub` (needs
 internet once); afterwards it runs offline.

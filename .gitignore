@@ -2,11 +2,14 @@
 weights/*.pt
 
 # Input images
-sample_images/*.jpg
+images/diagnostic_images/
 
 # Generated outputs
-sample_outputs/annotated/
-# sample_outputs/results.csv
+outputs/diagnostic_outputs/annotated/
+outputs/demo_outputs/
+
+# Mock figures
+figures
 
 # Local-only working notes / derived context, not for the public repo
 CLAUDE.md
