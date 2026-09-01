@@ -2,11 +2,12 @@
 weights/*.pt
 
 # Input images
-images/diagnostic_images/
+images/diagnostic_images/*.jpg
 
 # Generated outputs
 outputs/diagnostic_outputs/annotated/
-outputs/demo_outputs/
+outputs/demo_outputs/annotated/*.jpg
+outputs/demo_outputs/results.csv
 
 # Mock figures
 figures
